@@ -56,5 +56,9 @@ public class Session2 {
 		
 		
 	}
+	public void tearDown() {
+		driver.close();
+		driver.quit();
+	}
 	
 }
